@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121214;
+    font-family: Comfortaa, sans-serif;
+}
+
+.icon{
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #202024;
+    padding: 20px;
+    border-radius: 12px;
+    gap: 20px;
+    width: 350px;
+}
+
+.left-side {
+    font-size: 30px;
+    color: #e1e1e6;
+}
+
+.right-side {
+    display: table-column;
+    align-items: center;
+}
+
+.text {
+    color: #e1e1e6;
+    font-size: 18px;
+}
+
+.play-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #00b37e;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.play-button .fa-play .fa-pause {
+    margin-left: 2px;
+}
+
+.play-button:hover {
+    background-color: #00875f;
+}
